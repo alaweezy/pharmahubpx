@@ -1,0 +1,486 @@
+  .error {
+  	display: block;
+  	color: red;
+  }
+/* side bar links */
+div p a{
+	color:beige;
+	text-decoration: none;
+	opacity:0.7;
+}
+
+div p a:over{
+	color:beige;
+	text-decoration: none;
+	opacity:1;
+}
+
+
+  .hide-modal {
+  	width: 200px;
+  	position: absolute;
+  	margin: 0 auto;
+  	right: 0;
+  	left: 0;
+  	bottom: 20px;
+  	z-index: 9999;
+  }
+
+  li {
+  	display: block;
+  	margin-right: 70px;
+  	font-size: 23px;
+  	padding: 20px;
+  }
+
+  #phub [href] {
+  	color: antiquewhite;
+  	text-align: center;
+  	color: rgba(250, 235, 215, 0.6);
+  }
+
+  #phub:hover {
+  	text-decoration: none;
+  	color: cornsilk;
+  	font-size: 95px;
+  	color: rgba(255, 255, 255, 1);
+  }
+
+  .container-fluid {
+  	background-image: url();
+  	background-attachment: fixed;
+  	background-size: cover;
+  }
+
+  #phrase {
+  	height: 200px;
+  	font-size: 50px;
+  }
+
+  form {
+  	border: 3px solid darkturquoise;
+  	background-color: beige;
+  	border-radius: 10px;
+  }
+
+
+  @font-face {
+  	font-family: Alao;
+  	src: url('../fonts/flashlight.ttf');
+  }
+
+  @font-face {
+  	font-family: Bisi;
+  	src: url('../fonts/greathimalaya.ttf');
+  }
+
+  @font-face {
+  	font-family: Ade;
+  	src: url('../fonts/awesome.ttf')
+  }
+
+  /*Inputs*/
+  input[type=text],
+  input[type=password] {
+  	width: 100%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	box-sizing: border-box;
+  }
+
+  /*Buttons*/
+  button {
+  	background-color: dodgerblue;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	cursor: pointer;
+  	width: 100%;
+  }
+
+  /*Hover effect for buttons*/
+  button:hover {
+  	opacity: 0, 8;
+  }
+
+  /*Red Cancel button*/
+  .cancelbtn {
+  	width: auto;
+  	padding: 10px 18px;
+  	background-color: #f44336;
+  }
+
+  /*centralize the Avatar*/
+  img.avatar {
+  	width: 40%;
+  	border-radius: 50%;
+  	margin: auto;
+  }
+
+  /*Container padding*/
+  .container {
+  	padding: 16px;
+  }
+
+  /*Forgot psw txt*/
+  span.psw {
+  	float: right;
+  	padding-top: 16px;
+  }
+
+  /*To change the size of btns on small screens*/
+  @media screen and (max-width:300px) {
+  	span.psw {
+  		display: block;
+  		float: none;
+  	}
+
+  	.cancelbtn {
+  		width: 100%;
+  	}
+  }
+
+  .bd {
+  	background-image: url("../images/cta.jpg");
+  }
+
+  #indexhd {
+  	width: 90%;
+  	height: 60px;
+  	background-color: rgba(245, 245, 220, 0.4);
+  	border-radius: 10px;
+  }
+
+  /*---------------------*/
+  /* MODAL SIGN UP*/
+  /*----------------*/
+  	{
+  	box-sizing: border-box
+  }
+
+  /*Full width input fields*/
+  input[type=text],
+  input[type=password] {
+  	width: 100%;
+  	padding: 15px;
+  	margin: 5px, 0, 22px, 0;
+  	display: inline-block;
+  	border: none;
+  	background: #f1f1f1;
+  }
+
+  /*Add bacground color on focus*/
+  input[type=text]:focus,
+  input[type=password]:focus {
+  	background-color: #ddd;
+  	outline: none;
+  }
+
+  /*To set a style for Buttons*/
+  button {
+  	background-color: #4caf50;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	cursor: pointer;
+  	width: 100%;
+  	opacity: 0.9;
+  }
+
+  button:hover {
+  	opacity: 1;
+  }
+
+  /*Extras for cancel button*/
+  .cancelbtn1 {
+  	padding: 14px 20px;
+  	background-color: #f44336;
+  }
+
+  /* float cancel and signup buttons and add an equal width*/
+  .cancelbtn1,
+  .signup1 {
+  	float: left;
+  	width: 50%;
+  }
+
+  /*Padding to container*/
+  .container {
+  	padding: 16px;
+  }
+
+  /*Modal Background*/
+  .modal1 {
+  	display: none;
+  	/*Hidden by default*/
+  	position: fixed;
+  	/*stay in place*/
+  	z-index: 1;
+  	/*sit above*/
+  	left: 0;
+  	top: 0;
+  	width: 100%;
+  	height: 100%;
+  	overflow: auto;
+  	/*Enable scroll*/
+  	background-color: #474e5d;
+  	padding-top: 50px;
+  }
+
+  /*modal content box*/
+  .modal-content1 {
+  	background-color: #fefefe;
+  	margin: 5% auto 15% auto;
+  	/* 5% from the top, 15% from the bottom and centered*/
+  	border: 1px solid #888;
+  	width: 80%;
+  	/*can be more or less depending on screen size*/
+  }
+
+  /*Styling Horizontal ruler*/
+  hr {
+  	border: 1px solid #f1f1f1;
+  	margin-bottom: 25px;
+  }
+
+  /*Close button X*/
+  .close1 {
+  	position: absolute;
+  	right: 35px;
+  	top: 15px;
+  	font-size: 40px;
+  	font-weight: bold;
+  	color: black;
+  }
+/*================================  MSR DASHBOARD CARDS ==========================================*/
+.card{
+	max-width: 17rem;
+	height: 11.75rem;
+}
+
+.card:hover{
+	max-width: 22.8rem;
+	height: 12.4rem;
+}
+/*================================================================================================*/
+
+
+/*================================  MSR DASHBOARD CARD IMAGES ==========================================*/
+.msrimg{
+width:6rem;	
+}
+/*======================================================================================================*/
+  .close1:hover,
+  .close1:focus {
+  	color: #f44336;
+  	cursor: pointer;
+  }
+
+  /*Clear Floats*/
+  .clearfix1::after {
+  	content: "";
+  	clear: both;
+  	display: table;
+  }
+
+  /*Change cancel button styles and signup button on extra small screens*/
+  @media screen and (max-width:300px) {
+
+  	.cancelbtn1,
+  	.signup {
+  		width: 100%;
+  	}
+  }
+
+
+  /*-----------------------------------------------------------*/
+  #displayuser {
+  	border: 1px solid #000000;
+  	background-color: cadetblue;
+  	color: white;
+	z-index:2; 
+  }
+
+  /*---------------------*/
+  /* EDIT MSR USER*/
+  /*----------------*/
+  	{
+  	box-sizing: border-box
+  }
+
+  /*Full width input fields*/
+  input[type=text],
+  input[type=password] {
+  	width: 100%;
+  	padding: 15px;
+  	margin: 5px, 0, 22px, 0;
+  	display: inline-block;
+  	border: none;
+  	background: #f1f1f1;
+  }
+
+  /*Add bacground color on focus*/
+  input[type=text]:focus,
+  input[type=password]:focus {
+  	background-color: #ddd;
+  	outline: none;
+  }
+
+  /*To set a style for Buttons*/
+  button {
+  	background-color: #4caf50;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	cursor: pointer;
+  	width: 100%;
+  	opacity: 0.9;
+  }
+
+  button:hover {
+  	opacity: 1;
+  }
+
+  /*Extras for cancel button*/
+  .cancelbtn2 {
+  	padding: 14px 20px;
+  	background-color: #f44336;
+  }
+
+  /* float cancel and signup buttons and add an equal width*/
+  .cancelbtn2,
+  .signup2 {
+  	float: left;
+  	width: 50%;
+  }
+
+  /*Padding to container*/
+  .container {
+  	padding: 16px;
+  }
+
+  /*Modal Background*/
+  .modal2 {
+  	display: none;
+  	/*Hidden by default*/
+  	position: fixed;
+  	/*stay in place*/
+  	z-index: 1;
+  	/*sit above*/
+  	left: 0;
+  	top: 0;
+  	width: 100%;
+  	height: 100%;
+  	overflow: auto;
+  	/*Enable scroll*/
+  	background-color: #474e5d;
+  	padding-top: 50px;
+  }
+
+  /*modal content box*/
+  .modal-content2 {
+  	background-color: #fefefe;
+  	margin: 5% auto 15% auto;
+  	/* 5% from the top, 15% from the bottom and centered*/
+  	border: 1px solid #888;
+  	width: 80%;
+  	/*can be more or less depending on screen size*/
+  }
+
+  /*Styling Horizontal ruler*/
+  hr {
+  	border: 1px solid #f1f1f1;
+  	margin-bottom: 25px;
+  }
+
+  /*Close button X*/
+  .close2 {
+  	position: absolute;
+  	right: 35px;
+  	top: 15px;
+  	font-size: 40px;
+  	font-weight: bold;
+  	color: #f1f1f1;
+  }
+
+  .close2:hover,
+  .close2:focus {
+  	color: #f44336;
+  	cursor: pointer;
+  }
+
+  /*Clear Floats*/
+  .clearfix2::after {
+  	content: "";
+  	clear: both;
+  	display: table;
+  }
+
+  /*Change cancel button styles and signup button on extra small screens*/
+  @media screen and (max-width:300px) {
+
+  	.cancelbtn2,
+  	.signup {
+  		width: 100%;
+  	}
+  }
+
+
+  /*-----------------------------------------------------------*/
+
+  #btmfooter {
+  	width: 70%;
+  	height: 60px;
+  	background-color: rgba(245, 245, 220, 0.4);
+  	border-radius: 10px;
+
+  }
+
+  .dash {
+  	background-color: rgba(105, 105, 105, 0.7);
+  	height: 690px;
+  	width: 100%;
+  }
+
+  #rw1 {
+  	height: 150px;
+  	width: 100%;
+  	margin: auto;
+  }
+
+  #rwbtm {
+  	height: 90px;
+  	width: 100%;
+  	border-top: 2px solid beige;
+  	border-right: 0px;
+  	margin: auto;
+  	border-bottom: 2px solid beige;
+  	text-align: center;
+  }
+
+  .rw {
+  	height: 90px;
+  	width: 100%;
+  	border-top: 2px solid beige;
+  	text-align: center;
+	color: 2px solid rgba(245,245,220,0.7);
+  	margin: auto;
+  }
+
+
+  .sidep {
+  	margin-top: 25px;
+  	color: antiquewhite;
+  	font-size: 23px;
+  	font-family: cursive;
+  }
+
+  /* div main row */
+  #mainrw {
+  	color: beige;
+  }
